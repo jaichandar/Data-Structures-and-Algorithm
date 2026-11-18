@@ -1,3 +1,4 @@
+const wordPattern = () => {
     const str = s.split(' ');
 
     if (pattern.length !== str.length) return false;
@@ -22,3 +23,4 @@
     }
 
     return true;
+}
